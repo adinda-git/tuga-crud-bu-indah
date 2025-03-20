@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";  // Sesuaikan dengan host database Anda
-$user = "root";       // Username default untuk MySQL (jika pakai XAMPP)
-$pass = "";           // Kosongkan jika tidak ada password
-$db   = "hotel_reservasi"; // Nama database
+$host = "localhost";
+$user = "guest";  // Ganti dari 'root' ke 'guest'
+$pass = "password_guest";  // Masukkan password user 'guest'
+$db   = "hotel_reservasi";
 
 // Membuat koneksi
 $conn = mysqli_connect($host, $user, $pass, $db);
