@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "guest";  // Ganti dari 'root' ke 'guest'
-$pass = "password";  // Masukkan password user 'guest'
+$pass = "password_guest";  // Masukkan password user 'guest'
 $db   = "hotel_reservasi";
 
 // Membuat koneksi
